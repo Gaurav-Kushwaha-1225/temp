@@ -1,0 +1,207 @@
+{
+    "Monday": {
+        "Breakfast": [
+            "Aloo onion\nparatha",
+            "Chutney",
+            "Curd",
+            "Fruits/ Eggs",
+            "Daliya",
+            "Milk(200 ml)",
+            "Bread (4 slices)",
+            "Butter",
+            "Jam",
+            "Bournvita",
+            "Coffee Powder/\nTea bags",
+            "Sprouts(Black\nChana+\nMoong+Lemon)"
+        ],
+        "Lunch": [
+            "Arher Dal",
+            "Veg Kofta",
+            "Roti",
+            "Rice",
+            "Green Salad",
+            "Lemon + Pickle"
+        ],
+        "Dinner": [
+            "Roti",
+            "Rice",
+            "Pickle",
+            "Green Salad",
+            "Lemon"
+        ]
+    },
+    "Tuesday": {
+        "Breakfast": [
+            "Chana Masala",
+            "Halwa",
+            "Cornflakes",
+            "Milk(200 ml)",
+            "Bread (4 slices)",
+            "Butter",
+            "Jam",
+            "Bournvita",
+            "Coffee Powder/\nTea bags",
+            "Sprouts(Black\nChana+ Moong)"
+        ],
+        "Lunch": [
+            "Cabbage-Matar",
+            "Rice",
+            "Roti",
+            "Bundi Raita",
+            "Green Salad",
+            "Lemon + Pickle"
+        ],
+        "Dinner": [
+            "Roti",
+            "Rice",
+            "Pickle",
+            "Green Salad",
+            "Lemon"
+        ]
+    },
+    "Wednesday": {
+        "Breakfast": [
+            "Dhaniya Chutney",
+            "Curd",
+            "Daliya",
+            "Milk (200 ml)",
+            "Bread (4 slices)",
+            "Butter",
+            "Jam",
+            "Bournvita",
+            "Coffee Powder/\nTea bags",
+            "Sprouts(Black\nChana+ Moong)"
+        ],
+        "Lunch": [
+            "Kaddu Khatta",
+            "Masala Papad/\nFryums",
+            "Roti",
+            "Jeera Rice",
+            "Green Salad",
+            "Lemon + Pickle"
+        ],
+        "Dinner": [
+            "Roti",
+            "Rice",
+            "Pickle",
+            "Green Salad",
+            "Lemon"
+        ]
+    },
+    "Thursday": {
+        "Breakfast": [
+            "Green Chutney",
+            "",
+            "Fruits/ 2 Omlette",
+            "Daliya",
+            "Milk (200 ml)",
+            "Bread (4 slices)",
+            "Butter",
+            "Jam",
+            "Bournvita",
+            "Coffee Powder/\nTea bags",
+            "Sprouts(Black\nChana+ Moong)"
+        ],
+        "Lunch": [
+            "Aloo Began\nBhartha",
+            "Poori",
+            "Butter Milk",
+            "Khichdi",
+            "Green Salad",
+            "Lemon + Pickle"
+        ],
+        "Dinner": [
+            "Roti",
+            "Rice",
+            "Pickle",
+            "Green Salad",
+            "Lemon"
+        ]
+    },
+    "Idli": {
+        "Breakfast": [
+            "Sambhar &\nchutney",
+            "2 Banana/ 2 Eggs",
+            "Cornflakes",
+            "Milk(200 ml)",
+            "Bread (4 slices)",
+            "Butter",
+            "Jam",
+            "Bournvita",
+            "Coffee Powder/\nTea bags",
+            "Sprouts(Black\nChana+ Moong)"
+        ],
+        "Lunch": [
+            "Aloo Tamatar\nSabzi",
+            "Jeera Rice",
+            "Roti",
+            "Curd",
+            "Green Salad",
+            "Lemon + Pickle"
+        ],
+        "Dinner": [
+            "Roti",
+            "Rice",
+            "Pickle",
+            "Green Salad",
+            "Lemon"
+        ]
+    },
+    "Saturday": {
+        "Breakfast": [
+            "Aloo Tamatar\nSabji",
+            "Fruits / 2 Eggs",
+            "Cornflakes",
+            "Milk (200 ml)",
+            "Bread (4 slices)",
+            "Butter",
+            "Jam",
+            "Bournvita",
+            "Coffee Powder/\nTea bags",
+            "Sprouts(Black\nChana+ Moong)"
+        ],
+        "Lunch": [
+            "Chana Dal",
+            "Roti",
+            "Rice",
+            "Green Salad",
+            "Lemon + Pickle"
+        ],
+        "Dinner": [
+            "Roti",
+            "Rice",
+            "Pickle",
+            "Green Salad",
+            "Lemon"
+        ]
+    },
+    "Sunday": {
+        "Breakfast": [
+            "Sambar",
+            "Coconut Chutney",
+            "Daliya",
+            "Milk (200 ml)",
+            "Bread (4 slices)",
+            "Butter",
+            "Jam",
+            "Bournvita",
+            "Coffee Powder/\nTea bags",
+            "Sprouts(Black\nChana+ Moong)"
+        ],
+        "Lunch": [
+            "Chole",
+            "Green Chutney",
+            "Fried Masala\nChilli",
+            "Rice",
+            "Butter Milk",
+            "Green Salad",
+            "Lemon + Pickle"
+        ],
+        "Dinner": [
+            "Gajar Halwa",
+            "Roti",
+            "Green Salad",
+            "Lemon + Pickle"
+        ]
+    }
+}

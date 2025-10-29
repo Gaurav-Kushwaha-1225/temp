@@ -1,0 +1,1 @@
+/home/friday_code/Desktop/InstituteApp/build/app/intermediates/cxx/Debug/233h393s/obj/arm64-v8a
