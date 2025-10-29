@@ -1,0 +1,1 @@
+/home/friday_code/Desktop/temp/build/app/intermediates/cxx/RelWithDebInfo/2g703s3u/obj/arm64-v8a

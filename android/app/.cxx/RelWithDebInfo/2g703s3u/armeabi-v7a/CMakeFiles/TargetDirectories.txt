@@ -1,0 +1,2 @@
+/home/friday_code/Desktop/temp/android/app/.cxx/RelWithDebInfo/2g703s3u/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/friday_code/Desktop/temp/android/app/.cxx/RelWithDebInfo/2g703s3u/armeabi-v7a/CMakeFiles/rebuild_cache.dir
