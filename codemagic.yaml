@@ -1,0 +1,58 @@
+workflows:
+  appetize-simulator:
+    name: Appetize iOS Simulator Build
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      flutter: stable
+      xcode: 16.4
+    scripts:
+      - name: Flutter clean & pub get
+        script: |
+          flutter --version
+          flutter clean
+          flutter pub get
+      - name: Build iOS (Simulator, Debug)
+        script: |
+          # IMPORTANT: iphonesimulator target (not iphoneos)
+          flutter build ios --simulator --debug
+      - name: Zip Runner.app for Appetize
+        script: |
+          # Zip must expand to Runner.app/... at the ZIP root
+          cd build/ios/iphonesimulator
+          # Remove any previous zip to avoid conflicts
+          rm -f Runner.app.zip
+          zip -r Runner.app.zip Runner.app
+          ls -lah .
+    artifacts:
+      - build/ios/iphonesimulator/Runner.app.zip
+    publishing:
+      email:
+        recipients:
+          - $CM_EMAIL  # optional: replace or remove
+
+# (Optional) Keep your existing device build as a separate workflow:
+# Uncomment if you also want a device IPA build alongside.
+#  ios-device:
+#    name: iOS Device (IPA) Build
+#    max_build_duration: 60
+#    instance_type: mac_mini_m2
+#    environment:
+#      flutter: stable
+#      xcode: 16.4
+#    scripts:
+#      - name: Flutter clean & pub get
+#        script: |
+#          flutter clean
+#          flutter pub get
+#      - name: Build iOS (Device, Debug - unsigned)
+#        script: |
+#          # This produces build/ios/iphoneos/Runner.app (device build)
+#          flutter build ios --debug
+#      - name: Zip device .app (informational)
+#        script: |
+#          cd build/ios/iphoneos
+#          rm -f Runner.app.zip
+#          zip -r Runner.app.zip Runner.app
+#    artifacts:
+#      - build/ios/iphoneos/Runner.app.zip
