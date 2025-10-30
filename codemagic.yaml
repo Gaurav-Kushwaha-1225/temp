@@ -29,7 +29,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - $CM_EMAIL  # optional: replace or remove
+          - gaurav.family04@gmail.com
 
 # (Optional) Keep your existing device build as a separate workflow:
 # Uncomment if you also want a device IPA build alongside.
